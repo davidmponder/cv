@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+
+    <h1>My Contact Details</h1>
+        <!--
+        To create a linked email address, add the prefix mailto: directly in front.
+        Followed by ?Subject=This%20is%20test to autofill the subject line.
+        -->
+        <table cellspacing="10">
+            <tr>
+                <td><b>Address:</b></td>
+                <td>An address somewhere</td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><a href="daves@yahoo.com" target="_top">David Ponder</a></td>
+            </tr>
+            <tr>
+                <td><b>Mobile Nr:</b></td>
+                <td>+49 176 31 000 000</td>
+            </tr>
+        </table>
+
+        <hr size="1" noshade="">
+
+        <form action="mailto:david@yahoo.de" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <textarea name="yourMessage" rows="10" cols="100"></textarea><br>
+            <input type="submit" name="">
+        </form>
+
+<!--
+        <ul><b>Address:  </b>An address somewhere</ul>
+        <ul><b>Email:  </b><a href="daves@yahoo.com" target="_top">David Ponder</a></ul>
+        <ul><b>Mobile Nr:  </b>+49 176 31 523 681</ul>
+-->
+</body>
+</html>
